@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/build/myapp/myapp.csproj": {}
+    "/home/user/sampledotnet8project/myapp.csproj": {}
   },
   "projects": {
-    "/build/myapp/myapp.csproj": {
+    "/home/user/sampledotnet8project/myapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/build/myapp/myapp.csproj",
+        "projectUniqueName": "/home/user/sampledotnet8project/myapp.csproj",
         "projectName": "myapp",
-        "projectPath": "/build/myapp/myapp.csproj",
+        "projectPath": "/home/user/sampledotnet8project/myapp.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/build/myapp/obj/",
+        "outputPath": "/home/user/sampledotnet8project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -62,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/3hhkyi53ky9qwjj9vjzg0pyq333vlrla-dotnet-sdk-9.0.203/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/h4nvjwvcdzkp20lsd28yl6mb28hia7zg-dotnet-sdk-8.0.408/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

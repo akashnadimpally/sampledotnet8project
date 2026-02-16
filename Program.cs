@@ -1,3 +1,8 @@
+using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Http;
+
+[assembly: InternalsVisibleTo("tests")]
+
 var builder = WebApplication.CreateBuilder(args);
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
@@ -6,6 +11,6 @@ var target = Environment.GetEnvironmentVariable("TARGET") ?? "World";
 
 var app = builder.Build();
 
-app.MapGet("/", () => $"Hello {target}!");
+app.MapGet("/", () => Results.Text($"Hello {target}!", "text/html; charset=utf-8"));
 
 app.Run(url);
